@@ -251,7 +251,7 @@ header .intro-text .img-circle .intro-heading {
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
