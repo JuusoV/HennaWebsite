@@ -547,9 +547,13 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/contact.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 section#contact .section-heading {
   color: white;
@@ -598,7 +602,7 @@ section#contact :-ms-input-placeholder {
   color: #bbbbbb;
 }
 section#contact .text-danger {
-  color: #e74c3c;
+  color: #000000;
 }
 footer {
   padding: 25px 0;
