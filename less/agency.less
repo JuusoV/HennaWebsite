@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:768px) {
     .navbar-default {
-    	background-color: transparent;
+    	background-color: @gray-darkest;
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -162,14 +162,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: url('../img/header-bg.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-	color: white;
-	.intro-text {
+    position: relative;
+	color: black;
+	.intro-text .img-circle {
 		padding-top: 100px;
 		padding-bottom: 50px;
 		.intro-lead-in {
@@ -192,8 +192,8 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 300px;
-			padding-bottom: 200px;
+			padding-top: 50px;
+			padding-bottom: 20px;
 			.intro-lead-in {
 				.serif-font;
 				font-style: italic;
