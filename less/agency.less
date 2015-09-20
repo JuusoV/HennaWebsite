@@ -3,8 +3,8 @@
 
 // Global Components
 
-body {
-	overflow-x: hidden;
+html, body {
+	overflow-x: hidden !important;
 	.body-font;
 }
 
@@ -167,9 +167,7 @@ header {
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-    position: relative;
-	color: black;
-	.intro-text .img-circle {
+	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
 		.intro-lead-in {
@@ -177,6 +175,7 @@ header {
 			font-style: italic;
 			font-size: 22px;
 			line-height: 22px;
+            margin-top: 50px;
 			margin-bottom: 25px;
 		}
 		.intro-heading {
@@ -192,21 +191,21 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 50px;
+			padding-top: 120px;
 			padding-bottom: 90px;
 			.intro-lead-in {
 				.serif-font;
 				font-style: italic;
 				font-size: 40px;
-				line-height: 40px;
-				margin-bottom: 25px;
+				line-height: 20px;
+				margin-bottom: 15px;
 			}
 			.intro-heading {
 				.heading-font;
 				font-weight: 700;
 				font-size: 75px;
 				line-height: 75px;
-				margin-bottom: 50px;
+				margin-bottom: 30px;
 			}
 		}
 	}
