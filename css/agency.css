@@ -46,7 +46,7 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #f7f7f7;
+  background-color: #f8f8f8;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -546,8 +546,8 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/contact.jpg');
+  background-color: white;
+  background-image: url('');
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -605,6 +605,7 @@ section#contact .text-danger {
   color: #000000;
 }
 footer {
+  background-color: black;
   padding: 25px 0;
   text-align: center;
 }
@@ -626,13 +627,13 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: white;
   height: 40px;
   width: 40px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: white;
+  color: black;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
